@@ -1,0 +1,255 @@
+html,
+body {
+  height: 1000%;
+  width: 1000%;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.view {
+  width: 10%;
+  height: 10%;
+  float: left;
+}
+
+.startPage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.mainText {
+  width: auto;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;;
+  padding-top: 0%;
+  color: #483434 ;
+  align-items: center;
+}
+
+.intro {
+  height: 75%;
+  width: 100%;
+  display: flex ;
+  align-items: center;
+}
+
+#startBtn {
+  width: 45%;
+  height: 15%;
+  margin: auto;
+}
+
+.mainPicture {
+  width: auto;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: -10%;
+}
+
+#profilePic {
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color:white ;
+  width: 300px;
+}
+
+#introName, #introTitle, #baseLocation {
+  color: #606060FF;
+}
+
+.projectBtn {
+  height: auto;
+  text-align: center;
+
+}
+
+#baseLocationBtn {
+  float:right;
+  padding: 10px;
+  padding-right: 25px;
+  font-size: 30px;
+  margin: 15px;
+  border: 2px solid #004B49;
+}
+#myVideo {
+  
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+#view1 { background : #1A2421;}
+#view2 { background : #BDB76B;}
+#view3 { background : #483C32;}
+#view4 { background : #534B4F;}
+#view5 { background : #543D37;}
+#view6 { background : #8B008B;}
+#view7 { background : #4A5D23;}
+#view8 { background : #556B2F;}
+#view9 { background : #FF8C00;}
+#view10 { background : #9932CC;}
+#view11 { background : #03C03C;}
+#view12 { background : #301934;}
+#view13 { background : #8B0000;}
+#view14 { background : #E9967A;}
+#view15 { background : #8FBC8F;}
+#view16 { background : #3C1414;}
+#view17 { background : #8CBED6;}
+#view18 { background : #483D8B;}
+#view19 { background : #2F4F4F;}
+#view20 { background : #177245;}
+#view21 { background : #00CED1;}
+#view22 { background : #9400D3;}
+#view23 { background : #00703C;}
+#view24 { background : #555555;}
+#view25 { background : #DA3287;}
+#view26 { background : #FAD6A5;}
+#view27 { background : #B94E48;}
+#view28 { background : #004B49;}
+#view29 { background : #FF1493;}
+#view30 { background : #FF9933;}
+#view31 { background : #00BFFF;}
+#view32 { background : #4A646C;}
+#view33 { background : #7E5E60;}
+#view34 { background : #1560BD;}
+#view35 { background : #2243B6;}
+#view36 { background : #C19A6B;}
+#view37 { background : #EDC9AF;}
+#view38 { background : #696969;}
+#view39 { background : #1E90FF;}
+#view40 { background : #D71868;}
+#view41 { background : #967117;}
+#view42 { background : #00009C;}
+#view43 { background : #EFDFBB;}
+#view44 { background : #E1A95F;}
+#view45 { background : #555D50;}
+#view46 { background : #C2B280;}
+#view47 { background : #1B1B1B;}
+#view48 { background : #614051;}
+#view49 { background : #F0EAD6;}
+#view50 { background : #1034A6;}
+#view51 { background : #16161D;}
+#view52 { background : #7DF9FF;}
+#view53 { background : #00FF00;}
+#view54 { background : #6F00FF;}
+#view55 { background : #D6ED17FF;}
+#view56 { background : #BF00FF;}
+#view57 { background : #8F00FF;}
+#view58 { background : #50C878;}
+#view59 { background : #6C3082;}
+#view60 { background : #1B4D3E;}
+#view61 { background : #B48395;}
+#view62 { background : #AB4B52;}
+#view63 { background : #CC474B;}
+#view64 { background : #563C5C;}
+#view65 { background : #00FF40;}
+#view66 { background : #96C8A2;}
+#view67 { background : #C19A6B;}
+#view68 { background : #801818;}
+#view69 { background : #B53389;}
+#view70 { background : #DE5285;}
+#view71 { background : #F400A1;}
+#view72 { background : #E5AA70;}
+#view73 { background : #4D5D53;}
+#view74 { background : #4F7942;}
+#view75 { background : #6C541E;}
+#view76 { background : #FF5470;}
+#view77 { background : black;}
+#view78 { background : #CE2029;}
+#view79 { background : #E95C4B;}
+#view80 { background : #E25822;}
+#view81 { background : #EEDC82;}
+#view82 { background : #A2006D;}
+#view83 { background : #FFFAF0;}
+#view84 { background : #15F4EE;}
+#view85 { background : #5FA777;}
+#view86 { background : #014421;}
+#view87 { background : #228B22;}
+#view88 { background : #A67B5B;}
+#view89 { background : #856D4D;}
+#view90 { background : #0072BB;}
+#view91 { background : #FD3F92;}
+#view92 { background : #86608E;}
+#view93 { background : #9EFD38;}
+#view94 { background : #D473D4;}
+#view95 { background : #FD6C9E;}
+#view96 { background : #C72C48;}
+#view97 { background : #F64A8A;}
+#view98 { background : #77B5FE;}
+#view99 { background : #8806CE;}
+#view100 { background : #E936A7;}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+    margin: 5px;
+}
+
+#ahead {
+	width: auto;
+	height: 50px;
+	cursor: pointer;
+	font-size: 35px;
+	background: aquamarine;
+	border: 2px solid black;
+	box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+	transition: 500ms;
+}
+
+#ahead:after {
+	content: '';
+	position: absolute;
+	transform: translateX(-55px) translateY(-40px);
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: transparent;
+	box-shadow: 0px 0px 50px transparent;
+	transition: 500ms;
+}
+
+#ahead:hover {
+	transform: translateY(-5px);
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+}
+
+#ahead:hover:after {
+	background: white;
+	box-shadow: 0px 0px 20px #ffc421, 0px 0px 30px #ffc421, inset 0px 0px 10px #ffc421;
+	animation: spin 1s infinite linear;
+}
+
+@keyframes spin{
+	25%{transform: translateX(-25px) translateY(-35px);
+			width: 15px;
+			height: 15px;}
+	50% {transform: translateX(-55px) translateY(-30px);
+			width: 5px;
+			height: 5px;}
+	75% {transform: translateX(-85px) translateY(-35px);
+			width: 15px;
+			height: 15px;}
+}
+
+#ahead:focus {
+	outline: none;
+}
